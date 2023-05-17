@@ -1,5 +1,4 @@
 import express, { Application } from "express";
-import { Prisma } from "@prisma/client";
 import dotenv from "dotenv";
 import morgan from "morgan";
 const app: Application = express();
